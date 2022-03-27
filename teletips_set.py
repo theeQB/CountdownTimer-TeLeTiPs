@@ -23,12 +23,7 @@ stoptimer = False
 
 TELETIPS_MAIN_MENU_BUTTONS = [
             [
-                InlineKeyboardButton('❓ HELP', callback_data="HELP_CALLBACK")
-            ],
-            [
-                InlineKeyboardButton('👥 GROUP', callback_data="GROUP_CALLBACK"),
-                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/ppdefi'),
-                InlineKeyboardButton('👨‍💻 CREATOR', 'No Name')
+                InlineKeyboardButton('📣 CHANNEL', url='https://t.me/ppdefi')
             ]
         ]
 
